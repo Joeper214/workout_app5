@@ -33,3 +33,13 @@ Excercise facts:
 Exercise expectations upon creation:
   1. The new excercise's user_id has to be the same as the logged in user's
   2. The current page should be the excercise's show page
+  3.
+
+Unsuccessful creation of exercise
+=================================
+1. Flash message is displayed upon unsuccessful creation of an exercise
+2. Ensure that duration_in_min is a number
+3. Workout details field is required
+4. Activity date is required
+
+
