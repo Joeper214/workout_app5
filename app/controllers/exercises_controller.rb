@@ -4,6 +4,9 @@ class ExercisesController < ApplicationController
   end
 
   def new
-    @excercise = curret_user.exercises.new
+    @excercise = current_user.exercises.new
+  end
+
+  def show
   end
 end
