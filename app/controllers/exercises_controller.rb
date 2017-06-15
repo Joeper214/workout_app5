@@ -5,12 +5,12 @@ class ExercisesController < ApplicationController
     @exercises = current_user.exercises
   end
 
-  def new
-    @exercise = current_user.exercises.new
-  end
-
   def show
     @exercise = current_user.exercises.find(params[:id])
+  end
+
+  def new
+    @exercise = current_user.exercises.new
   end
 
   def create
